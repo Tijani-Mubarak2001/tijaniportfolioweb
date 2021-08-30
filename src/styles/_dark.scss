@@ -1,0 +1,92 @@
+body.dark-mode .main-content{
+    background-color:#1f2833;
+    transition: all .7s ease-in-out;
+}
+
+body.dark-mode .hero-text{
+    color: white;
+    transition: all .7s ease-in-out;
+}
+body.dark-mode .h-sub-text{
+    transition: all .7s ease-in-out;
+    color: #a4acc4;
+}
+body.dark-mode  .icons .icon-holder .icon{
+    transition: all .7s ease-in-out;
+    color: #a4acc4;
+}
+body.dark-mode .sidebar{
+    transition: all .7s ease-in-out;
+    background-color:#464866;
+}
+body.dark-mode .NavBar .nav .footer{
+    transition: all .7s ease-in-out;
+    color: #a4acc4;
+}
+body.dark-mode .Title{
+    transition: all .7s ease-in-out;
+    color: white;
+}
+body.dark-mode .ImageSection .about-info h4{
+    transition: all .7s ease-in-out;
+    color: white;
+}
+body.dark-mode .ImageSection .about-info .about-text{
+    transition: all .7s ease-in-out;
+    color: white;
+}
+body.dark-mode .about-details{
+    transition: all .7s ease-in-out;
+    color: white;
+}
+body.dark-mode .skills-container .skill-bar .skill-text{
+    transition: all .7s ease-in-out;
+    color: white;
+}
+body.dark-mode .hero-text span{
+    transition: all .7s ease-in-out;
+    color: #037FFF;
+}
+body.dark-mode .ServicesSection .service{
+    transition: all .7s ease-in-out;
+    background-color: #191D2B;
+}
+body.dark-mode .btn-port{
+    transition: all .7s ease-in-out;
+    background-color: rgba(3, 129, 255, 0.575);
+    &:hover{
+        background-color: rgb(52, 154, 255);
+    }
+    &:active{
+        background-color: rgb(52, 154, 255);
+    }
+    &:focus{
+        background-color: rgb(52, 154, 255);
+    }
+}
+
+body.dark-mode .portfolio h5{
+    transition: all .7s ease-in-out;
+    color: white;
+    text-decoration: #037FFF underline;
+    transition: all .7s ease-in-out;
+}
+body.dark-mode .portfolio p{
+    color: #a4acc4;
+    transition: all .7s ease-in-out;
+}
+body.dark-mode .map-sect{
+    background-color: #191D2B;
+    transition: all .7s ease-in-out;
+}
+body.dark-mode .ContactItem .contact{
+    background-color: #191D2B;
+    transition: all .7s ease-in-out;
+}
+body.dark-mode a{
+    color: yellow;
+    transition: all .5s ease-in-out;
+}
+
+
+

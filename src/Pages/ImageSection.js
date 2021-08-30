@@ -1,18 +1,17 @@
 import React from 'react';
 import about from '../img/profile picture.jpg';
 
-function ImageSection(){
-    return(
+function ImageSection() {
+    return (
         <div className="ImageSection">
             <div className="img">
-                <img src={about} alt=""/>
-
+                <img src={about} alt="" />
             </div>
             <div className="about-info">
                 <h4>My name is<span> Tijani Mubarak Adewale</span></h4>
                 <p className="about-text">
-                    I am currently a computer science student at Babcock University (200 level). I began my journey 
-                    as a computer scientist at a computer institute called the Agacom-infotech concept where i enrolled 
+                    I am currently a computer science student at Babcock University (200 level). I began my journey
+                    as a computer scientist at a computer institute called the Agacom-infotech concept where i enrolled
                     for a diploma course in computer science, there, I learnt my first programming language, Python.
                     I started to have interest in Data Science and Machine learning in my first year, the power of being able to analyse and predict was overwhelming for me, and since then, i have been working on
                     series of projects to get myself grounded in the field. I love to make websites with django framework and react js because they bring out the creativity in me, unlike DS that is more of analysis and complex algorithm. I concentrate more on DS and ML but during my spare time, I build Android Applications too.
@@ -36,16 +35,16 @@ function ImageSection(){
                         <p> Single</p>
                         <p>Student</p>
                     </div>
-          
+
                 </div>
                 <a href="Resume.pdf" download>
                     <button className="btn">Download CV</button>
                 </a>
             </div>
-            
+
 
         </div>
-        
+
     )
 
 }

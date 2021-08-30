@@ -1,13 +1,13 @@
 import React from 'react'
 
-function MenuItems({menuItem}){
-    return(
+function MenuItems({ menuItem }) {
+    return (
         <div className="portfolis">
             {
-                menuItem.map((item)=>{
+                menuItem.map((item) => {
                     return <div className="portfolio" key={item.id}>
                         <div className="image-data">
-                            <img src={item.image} alt=""/>
+                            <img src={item.image} alt="" />
                             <ul className="hover-items">
                                 <li>
                                     <a href={item.link1} target="_blank" rel="noreferrer">{item.icon1}</a>
@@ -16,7 +16,7 @@ function MenuItems({menuItem}){
                             </ul>
 
                         </div>
-                        <a href={item.link1} target="_blank" rel="noreferrer">
+                        <a href={item.link1} target="_blank" rel="noreferrer" download>
                             <h5>
                                 {item.title}
                             </h5>

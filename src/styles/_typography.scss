@@ -8,15 +8,18 @@
 }
 
 .hero-text{
-    color: white;
+    color: #037FFF;
+    transition: all .7s ease-in-out;
     text-align: center;
     font-size: 2rem;
     span{
-        color: #037FFF;
+        color: rgb(0, 35, 70);
     }
 }
 .h-sub-text{
+    transition: all .7s ease-in-out;
     text-align: center;
+    color: #037FFF;
 }
 .icons{
     display: flex;
@@ -27,7 +30,8 @@
         margin-right: 1rem;
         .icon{
             font-size: 2rem;
-            color: #a4acc4;
+            transition: all .7s ease-in-out;
+            color: rgb(0, 35, 70);
             transition: all .4s ease-in-out;
                     
         }
@@ -45,3 +49,4 @@
         }
     }
 }
+

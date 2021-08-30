@@ -6,7 +6,7 @@
     .contact{
         display: flex;
         align-items: center;
-        background-color: #191D2B;
+        background-color: #606060FF;
         padding: 3rem 0;
         .rigth-items{
             margin-left: 2rem;
@@ -40,12 +40,17 @@
     }
     .contact-sect{
         width: 100%;
+        color: white;
+        @media screen and (max-width: 360px){
+            font-size: 0.9rem;
+        }
+        
     }
 }
 .map-sect{
     width: 97%;
     padding: 1rem;
-    background-color: #191D2B;
+    background-color: #606060FF;
     iframe{
         width: 100%;
         height: 100%;

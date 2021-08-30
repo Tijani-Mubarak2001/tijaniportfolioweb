@@ -1,6 +1,11 @@
 .PortfolioPage{
     position: relative;
-
+    width: 100%;
+    @media screen and (max-width: 414px){
+        width: 100%;
+        position: relative;
+    }
+    
 }
 .portfolis{
     width: 100%;
@@ -11,7 +16,7 @@
     @media screen and (max-width: 1600px){
         grid-template-columns: repeat(2, 1fr);
     }
-    @media screen and (max-width: 900px){
+    @media screen and (max-width: 414px){
         grid-template-columns: repeat(1, 1fr);
     }
     .portfolio{
@@ -73,12 +78,18 @@
         h5{
             font-size: 1.7rem;
             font-weight: 400;
-            color:white;
-            transition: all .3s ease-in-out;
+            color:#191D2B;
+            text-decoration: #037FFF underline;
+            transition: all .7s ease-in-out;
             &:hover{
+                transition: all .3s ease-in-out;
                 color: #037FFF;
                 cursor: pointer;
             }
+        }
+        p{
+            color: #037FFF;
+            transition: all .7s ease-in-out;
         }
     }
 

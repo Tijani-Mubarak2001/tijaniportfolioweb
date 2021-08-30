@@ -1,46 +1,19 @@
 import React from 'react'
 import myphoto from '../img/myphoto.png';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import * as AiIcons from 'react-icons/ai';
+import * as ImProf from 'react-icons/im';
+import * as Cont from 'react-icons/md';
+import * as Achive from 'react-icons/gr';
+import { useState } from 'react';
 
-function Navbar(){
-    return (
-        <div className="NavBar">
-            <nav className="nav">
-                <div className="profile"> 
-                    <img src={myphoto} alt=""/>
-                </div>
-                <ul className="nav-items">
-                    <li className="nav-item">
-                        <NavLink to="/" exact activeClassName="active">
-                            Home
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink to="/about" exact activeClassName="active">
-                            About
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink to="/portfolios" exact activeClassName="active">
-                            Portfolios
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
-                        <NavLink to="/contact" exact activeClassName="active">
-                            Contact
-                        </NavLink>
-                    </li>
-                </ul>
-                <footer className="footer">
-                    <p>
-                        Tijani|@2021|All Rights Reserved
-                    </p>
-            </footer>
+function Navbar() {
+    const [navToggle, setNavToggle] = useState(false);
 
-            </nav>
-            
-        </div>
-    )
+
+    const navClick = () => {
+        setNavToggle(!navToggle)
+    }
 }
 
 export default Navbar;

@@ -11,6 +11,11 @@ import port10 from '../img/portImages/Andriod App.jpg';
 import port11 from '../img/portImages/brain Trainer.jpg';
 import port12 from '../img/portImages/Time series.jpg';
 import port13 from '../img/portImages/port6.jpg';
+import port14 from '../img/portImages/firestore cert.jpg';
+import port15 from '../img/portImages/Udemy certificate on java android.jpg';
+import port16 from '../img/portImages/cyber security cert.jpg';
+import port17 from '../img/portImages/Tekedia.jpg';
+import port18 from '../img/portImages/face recog.jpg';
 
 
 
@@ -39,7 +44,7 @@ const portfolios = [
     },
     {
         id: 3,
-        category: 'DS and ML',
+        category: 'Certificates',
         link1: "https://github.com/Tijani-Mubarak2001/KPMG_Virtual_Internship",
         icon1: 'Click!',
         image: port3,
@@ -59,12 +64,12 @@ const portfolios = [
     },
     {
         id: 5,
-        category: 'DS and ML',
-        link1: "/",
+        category: 'Certificates',
+        link1: "udemy data science.pdf",
         icon1: 'Click!',
         image: port5,
         title: 'Udemy Certificate in Machine Learning And Data Science',
-        placeholder: 'My Udemy certificate after completing the completing course on data science with python',
+        placeholder: 'My Udemy certificate after completing the course on data science with python',
 
     },
     {
@@ -142,6 +147,51 @@ const portfolios = [
         image: port13,
         title: 'Portfolio Website With React JS',
         placeholder: 'The Current Portfolio Website You are on is built with react js',
+    },
+    {
+        id: 14,
+        category: 'Certificates',
+        link1: "ShopApp.pdf",
+        icon1: 'Click!',
+        image: port14,
+        title: 'Android Firestore Certificate Of Completion',
+        placeholder: 'Certificate Of Completion received after consuming 18 hours of course content on Android Firebase, Firestore in Kotlin',
+    },
+    {
+        id: 15,
+        category: 'Certificates',
+        link1: "AndroidDevInJava.pdf",
+        icon1: 'Click!',
+        image: port15,
+        title: 'Complete Android Developer Course Certificate Of Completion',
+        placeholder: 'Certificate Of Completion received after consuming 32 hours of course content on Android App Development in Java',
+    },
+    {
+        id: 16,
+        category: 'Certificates',
+        link1: "ComptiaCert.pdf",
+        icon1: 'Click!',
+        image: port16,
+        title: 'Certified Computer User',
+        placeholder: 'A Certificate received after taking the certification exam administered by E-Council',
+    },
+    {
+        id: 17,
+        category: 'Certificates',
+        link1: "/",
+        icon1: 'Click!',
+        image: port17,
+        title: 'Tekedia Mini MBA certificate',
+        placeholder: 'A Certificate of participation from the Tekedia Mini MBA',
+    },
+    {
+        id: 18,
+        category: 'DS and ML',
+        link1: "https://share.streamlit.io/tijani-mubarak2001/face-emotions-detector/app.py",
+        icon1: 'Click!',
+        image: port18,
+        title: 'Face Emotion Recognition and Pets Classifier Web App',
+        placeholder: 'A CNN model deployed, classifies the images based on Emotions detected on faces in the picture, by learning from 28000 different images from Kaggle',
     },
 ]
 

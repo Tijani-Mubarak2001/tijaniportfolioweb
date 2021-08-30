@@ -1,6 +1,5 @@
 import React from 'react'
-import { filter } from 'minimatch';
-import {NavLink} from 'react-router-dom';
+
 
 function Categories({filter, categories}){
     return(

@@ -20,6 +20,15 @@
                
             }
         }
+        .darkmode{
+            height: 20px;
+        }
+        @media screen and (max-width: 370px){
+            .darkmode{
+                height: 5px;
+            }
+            
+        }
         .nav-items{
             width: 100%;
             .nav-item{
@@ -37,24 +46,29 @@
                         position: absolute;
                         top: 0;
                         left: 0;
-                        width: .4rem;
+                        width: 100%;
                         height: 100%;
                         background-color: rgba(4, 13, 182, 0.267);
                         transform-origin: bottom;
                         transform: scale(0);
                         overflow-x: hidden;
-                        transition: transform .6s .2s, width .5s cubic-bezier(1,-0.16,.6,1.35);
+                        
                     }
                     &:hover::before{
                         width: 100%;
                         transform: scale(1);
                     }
-                
+                    
                 }
+                span{
+                    margin-left: 16px;
+                }
+                
             }
         }
         .footer{
             width: 100%;
+            color: #404040;
             border-top: 1px solid #2e344e;
             p{
                 text-align: center;
@@ -66,4 +80,13 @@
 
 .active{
     background-color: #25274D;
+    
 }
+.cursor-pointer{
+    cursor: pointer;
+}
+a{
+    color: #191D2B;
+    transition: all .5s ease-in-out;
+}
+
